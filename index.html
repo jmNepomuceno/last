@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose your Characters</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onload="main()">
+
+	<main>
+
+		<div class="main-title">
+			<img src="./imgs/title2.jpg" id="title-img-logo">
+			<img src="./imgs/title.png" id="title-img-pokemon">
+			<img src="./imgs/title2.jpg" id="title-img-logo">
+		</div>
+
+		<!-- Versus frame -->
+		<section class="vs-section">
+			<div class="players" id="p1">
+				<h1 class="ps-text">P1</h1>
+			</div>
+			<div class="versus-char" id="player-one">
+				<img class="img-char" id="img-p1">
+			</div>
+
+			<div>
+				<img id="vs-img" src="./imgs/war.png">
+			</div>
+			
+			<div class="versus-char" id="player-two">
+				<img class="img-char" id="img-p2">
+			</div>
+			<div class="players" id="p2">
+				<h1 class="ps-text">P2</h1>
+			</div>
+		</section>
+
+		<!-- button to next form index -->
+		<form action="play.html">
+			<button id="btn-div">
+				<img src="./imgs/GO.jpg" id="btn-img">
+			</button>
+		</form>
+		
+
+		<!-- characters -->
+
+		<section class="char-section">
+			<!-- pokeball tiles -->
+			<div class="pokeball-tiles" id="ball-tiles-0">
+				<img class="pokeball-img" id="ball-img-0">
+			</div>
+
+			<div class="pokeball-tiles" id="ball-tiles-1">
+				<img class="pokeball-img" id="ball-img-1">
+			</div>
+
+			<div class="pokeball-tiles" id="ball-tiles-2">
+				<img class="pokeball-img" id="ball-img-2">
+			</div>
+
+			<div class="pokeball-tiles" id="ball-tiles-3">
+				<img class="pokeball-img" id="ball-img-3">
+			</div>
+
+			<div class="pokeball-tiles" id="ball-tiles-4">
+				<img class="pokeball-img" id="ball-img-4">
+			</div>
+
+			<div class="pokeball-tiles" id="ball-tiles-5">
+				<img class="pokeball-img" id="ball-img-5">
+			</div>
+
+			<!-- characers tiles -->
+			<div class="char-tiles" onmouseover="imageTimerHover(0)" onmouseout="imageTimerOut()" onclick="clickedChar(0)">
+				<img class="img-char" id="0">
+			</div>
+
+			<div class="char-tiles" onmouseover="imageTimerHover(1)" onmouseout="imageTimerOut()" onclick="clickedChar(1)">
+				<img class="img-char" id="1">
+			</div>
+
+			<div class="char-tiles" onmouseover="imageTimerHover(2)" onmouseout="imageTimerOut()" onclick="clickedChar(2)">
+				<img class="img-char" id="2">
+			</div>
+
+			<div class="char-tiles" onmouseover="imageTimerHover(3)" onmouseout="imageTimerOut()" onclick="clickedChar(3)">
+				<img class="img-char" id="3">
+			</div>
+
+			<div class="char-tiles" onmouseover="imageTimerHover(4)" onmouseout="imageTimerOut()" onclick="clickedChar(4)">
+				<img class="img-char" id="4">
+			</div>
+
+			<div class="char-tiles" onmouseover="imageTimerHover(5)" onmouseout="imageTimerOut()" onclick="clickedChar(5)">
+				<img class="img-char" id="5">
+			</div>
+
+		</section>
+
+	</main>
+<script src="index.js"></script>
+</body>
+</html>

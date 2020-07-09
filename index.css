@@ -1,0 +1,164 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+main{
+	width:75%;
+	height:700px;
+	margin:0 0 0 170px;
+	border:2px solid #7ca76e;
+}
+
+button{
+	position: absolute;
+	top:420px;
+	left:610px;
+	width:150px;
+	height:50px;
+	background-color: #1670cb;
+	cursor: pointer;
+	border-radius: 15%;
+}
+
+.main-title{
+	width:100%;
+	height:100px;
+}
+
+#title-img-pokemon{
+	width:69%;
+	height:100%;
+}
+
+#title-img-logo{
+	width:15%;
+	height:100%;
+}
+
+#btn-img{
+	width:100%;
+	height: 100%;
+	border-radius: 50%;
+	border:none;
+
+}
+
+.vs-section{
+	width:100%;
+	height:400px;
+	background-image: url(./imgs/pokeBackground.png);	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+}
+.players{
+	width:180px;
+	height:200px;
+	position: absolute;
+}
+
+#p1{
+	top:170px;
+	left:175px;
+}
+
+#p2{
+	top:170px;
+	right:170px;
+}
+
+.ps-text{
+	font-size: 140px;
+	font-family: Agency FB;
+	text-align: center;
+	font-weight: initial;
+	margin:10px;
+	color: #f74702;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+.versus-char{
+	width:300px;
+	height:250px;
+	float:left;
+}
+
+#player-one{
+	margin:50px 0 0 200px;
+}
+
+#player-two{
+	margin:50px 0 0 20px;
+}
+
+#vs-img{
+	width:100px;
+	height:150px;
+	position: absolute;
+	top:200px;
+	left:630px;
+}
+
+.pokeball-tiles{
+	width:100px;
+	height:85px;
+	display: inline-block;
+	margin:5px 0 0 0;
+}
+
+#ball-tiles-0{
+	margin-left:35px;
+}
+
+#ball-tiles-1{
+	margin-left:60px;
+}
+
+#ball-tiles-2{
+	margin-left:60px;
+}
+
+#ball-tiles-3{
+	margin-left:60px;
+}
+
+#ball-tiles-4{
+	margin-left:60px;
+}
+
+#ball-tiles-5{
+	margin-left:60px;
+}
+
+.pokeball-img{
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+}
+
+.char-section{
+	width:100%;
+	height:300px;
+	border:1px solid black;
+	background-color: #7ca76e;
+}
+
+.char-tiles{
+	width:150px;
+	height:200px;
+	border: 1px solid black;
+	border-style: dotted;
+	display: inline-block;
+	border-radius: 10%;
+	margin: 0px 0 0 10px;
+	cursor: pointer;
+}
+
+.img-char{
+	width:100%;
+	height:100%;
+	border-radius: 10%;
+}
+
+

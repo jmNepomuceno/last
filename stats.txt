@@ -1,0 +1,201 @@
+win = X
+thunder
+	horizontal 	1		2	3
+		width : 463px
+		height : 100px
+		top : 10px		160px      	310px
+		left :  -15px
+		deg: 
+
+	vertical 	  	 1	2	3
+		width : 463px
+		height : 100px
+		top : 165px		
+		left :  -140px	0	150
+		deg: 90deg
+
+	slant 		left 		right
+		width : 650
+		top :   145			175px      
+		left :  -100px		-125			
+		deg: 	42deg		312deg
+
+thunder = O
+	horizontal 	1		2	3
+		width : 463px
+		height : 100px
+		top : 10px		160px      	310px
+		left :  0px
+
+	vertical 	  	 1	2	3
+		width : 463px
+		height : 100px
+		top : 185px
+		left :  -140px	0	150
+		deg: 90deg
+
+	slant 		left 		right
+		width : 650
+		top :   175			145px
+		left :  -75px		-95px
+		deg: 	48deg		318deg
+
+
+razorleaf
+	horizontal 1			2	3
+		width : 450px
+		height : 100px
+		top : 25px			175px      325px
+		left :  0px
+
+	vertical 	   1			2	3
+		width : 463px
+		height : 100px
+		top : 173px			
+		left :  -150px		0px	150
+		deg: 90deg
+
+	slant 		left 		right
+		width : 550px
+		top :   180px		      
+		left :  -50px		-45px			
+		deg: 	45deg		-45deg
+
+
+flames
+	horizontal 1			2	3
+		width : 450px
+		height : 100px
+		top : 25px			175px      325px
+		left :  0px
+
+	vertical 	   1			2	3
+		width : 450px
+		height : 100px
+		top : 173px			
+		left :  -150px		0px	150
+		deg: 90deg
+
+	slant 		left 		right
+		width : 600px
+		top :   160px		  165px    
+		left :  -65px		-85px			
+		deg: 	45deg		-45deg
+
+kame
+	horizontal 1			2	3
+		width : 450px
+		height : 100px
+		top : 25px			175px      325px
+		left :  0px
+		deg: -180deg;
+
+	vertical 	   1			2	3
+		width : 450px
+		height : 100px
+		top : 175px			
+		left :  -150px		0px	150
+		deg: -90deg
+
+	slant 		left 		right
+		width : 600px
+		top :   170px		  175px    
+		left :  -75px		-75px			
+		deg: 	225deg		-225deg
+
+kame = 0
+	horizontal 1			2	3
+		width : 450px
+		height : 100px
+		top : 25px			175px      325px
+		left :  0px
+		deg: -180deg
+
+	vertical 	   1			2	3
+		width : 450px
+		height : 100px
+		top : 175px			
+		left :  -150px		0px	150
+		deg: 90deg
+
+	slant 		left 		right
+		width : 600px
+		top :   175px		  175px    
+		left :  -75px		-75px			
+		deg: 	225deg		-225deg
+
+kameRed
+	horizontal 1			2	3
+		width : 500px
+		height : 100px
+		top : 20px			170px      320px
+		left :  0px
+		deg: 0;
+
+	vertical 	   1			2	3
+		width : 500px
+		height : 100px
+		top : 200px			
+		left :  -170px		-20px	130
+		deg: 90deg
+
+	slant 		left 		right
+		width : 670px
+		top :   190px		  150px    
+		left :  -85px		-90px			
+		deg: 	45deg		-45deg
+
+kameRed = O
+	horizontal 1			2	3
+		width : 500px
+		height : 100px
+		top : 20px			170px      320px
+		left :  -50px
+		deg: 0;
+
+	vertical 	   1			2	3
+		width : 500px
+		height : 100px
+		top : 200px			
+		left :  -170px		-20px	130
+		deg: 90deg
+
+	slant 		left 		right
+		width : 670px
+		top :   150px		  190px
+		left :  -125px		-135px
+		deg: 	45deg		-45deg
+
+
+water = 0
+	horizontal 1			2	3
+		width : 550px
+		height : 100px
+		top : 20px			175px      330px
+		left :  -95px
+		deg: -190deg;
+
+	vertical 	   1			2	3
+		width : 650px
+		height : 100px
+		top : 80px
+		left :  -245px		-95px       55px
+		deg: 262deg
+
+	slant 		left 		right
+		width : 800px
+		top :   110px		220px
+		left :  -215px		-245px
+		deg: 	220deg		-130deg
+
+
+
+
+
+
+
+0 1 2 
+3  4 5
+6 7 8
+
+bulbasaur vertical height

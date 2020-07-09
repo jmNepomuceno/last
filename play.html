@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<link rel="stylesheet" type="text/css" href="play.css">
+</head>
+<body onload="main()">
+
+	<main>
+
+		<div class="main-title">
+			<img src="./imgs/title2.jpg" id="title-img-logo">
+			<img src="./imgs/title.png" id="title-img-pokemon">
+			<img src="./imgs/title2.jpg" id="title-img-logo">
+		</div>
+
+		<div class="main-body">
+
+			<div class="player-icons" id="player-one">
+
+				<img src="" class="players-img" id="p1-img">
+
+				<!-- 
+				<img src="./imgs/thunderBadge.jpg" class="badges" id="p1-1-badge">
+				<img src="./imgs/waterBadge.png" class="badges" id="p1-2-badge">
+				<img src="./imgs/grassBadge.png" class="badges" id="p1-3-badge">
+				<img src="./imgs/fireBadge.png" class="badges" id="p1-4-badge">
+				-->
+
+				<div class="p1-labels">
+					<label id="player-one-name"></label><br>
+					<img src="" id="p1-img-icon">
+				</div>
+
+				<div class="health-div" id="p1-health">
+					<div id="p1-health-bar">
+						
+					</div>
+				</div>
+
+			</div>
+
+			<div class="player-icons" id="player-two">
+
+				<img src="" class="players-img" id="p2-img">
+
+				<!--
+				<img src="" class="badges" id="p2-1-badge">
+				<img src="" class="badges" id="p2-2-badge">
+				<img src="" class="badges" id="p2-3-badge">
+				<img src="" class="badges" id="p2-4-badge">
+				-->
+
+				<div class="p2-labels">
+					<label id="player-two-name"></label><br>
+					<img src="" id="p2-img-icon">
+				</div>
+
+				<div class="health-div" id="p2-health">
+					<div id="p2-health-bar">
+						
+					</div>
+				</div>
+
+			</div>
+
+			<div class="board">
+				<div class="tiles-board" id="0" onclick="clicked(0)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<div class="tiles-board" id="1" onclick="clicked(1)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<div class="tiles-board" id="2" onclick="clicked(2)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<div class="tiles-board" id="3" onclick="clicked(3)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<div class="tiles-board" id="4" onclick="clicked(4)">
+					<h1 class="tile"></h1>
+				</div>
+				
+				<div class="tiles-board" id="5" onclick="clicked(5)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<div class="tiles-board" id="6" onclick="clicked(6)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<div class="tiles-board" id="7" onclick="clicked(7)">
+					<h1 class="tile"></h1>
+				</div>
+				
+				<div class="tiles-board" id="8" onclick="clicked(8)">
+					<h1 class="tile"></h1>
+				</div>
+
+				<!-- Winning effect -->
+				<div id="strikeThrough-effect">
+					
+				</div>
+
+			</div>
+			<!--
+			<video width="300" height="300" controls> 
+				<source src="./imgs/try.mp4">
+			</video>
+			-->
+
+			<!-- ON TO THE NEXT ROUND DIVS  -->
+			<div class="countdown-div">
+				<h4 id="countdown">5</h4>	
+			</div>
+
+			<div class="draw-div">
+				<h4 id="draw">DRAW</h4>	
+			</div>
+
+			<div class="go-div">
+				<h4 id="go">G</h4>
+				<img src="./imgs/pokeballGO.png" id="GO-ball">
+			</div>
+
+			<div class="clip" id="clip-effect">
+				<img src="" id="clip-gif">
+				<!-- 
+				pikachu = 4.5s
+				bulbasaur = 1.5s
+				charmander = 2.5s
+				squirtle = 2s
+				chimchar = 2s
+				piplup = 1s
+				-->
+			</div>
+
+			<div class="win-div" id="win-id">
+				<div class="win-div-2">
+					<h4 class="outro-text" id="char-text">BULBASAUR</h4>
+					<h4 class="outro-text" id="win-faint-text">is fainted!</h4>
+					<img src="./imgs/arrow.jpg" id="arrow-img">
+				</div>
+			</div>
+
+		</div>
+	</main>
+	<script src="play.js"></script>
+</body>
+</html>
