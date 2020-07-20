@@ -3,6 +3,11 @@
 	padding:0px;
 }
 
+body{
+	width:fit-content;
+	height:fit-content
+}
+
 main{
 	width:75%;
 	height:700px;
