@@ -4,8 +4,8 @@
 }
 
 body{
-	width:fit-content;
-	height:fit-content
+	width:fit-content(100%);
+	height:fit-content(100%);
 }
 
 main{
